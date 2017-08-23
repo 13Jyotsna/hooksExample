@@ -1,0 +1,22 @@
+{
+  "name": "greet",
+  "plural": "greets",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "person": {
+      "type": "string",
+      "required": true
+    },
+    "gift": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
